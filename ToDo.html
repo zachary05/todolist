@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/todo.css">
+    <title>ToDo</title>
+</head>
+
+<body>
+    <div class="top container-fluid">
+        <div class="app-name row">
+            <div class="">
+                <h1>Todo</h1>
+            </div>
+        </div>
+    </div>
+    <div class="task-area container">
+        <div class="create-task row">
+            <h3>New</h3>
+            <form class="new-task form-group">
+                Title:
+                <input id="taskTitle" type="text" class="form-control"></input>
+                <br> Due:
+                <input id="deadLine" type="date"></input>
+                <br>
+                <br> Description:
+                <textarea id="descriptionText" class="form-control" rows="3"></textarea>
+                <br>
+                <input type="button" id="btn_save" class='btn btn-default' value="save" onclick="get_viewData ()"></input>
+            </form>
+            <br>
+        </div>
+        <div class="show-task row">
+            <h3>Tasks</h3>
+            <ul class="taskList list-group">
+            </ul>
+            <ul class='finished_taskList list-group'>
+            </ul>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

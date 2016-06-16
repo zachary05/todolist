@@ -1,0 +1,25 @@
+body {
+    background-color: #D5DED9;
+}
+.app-name {
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.top {
+    background-color: #99B2B7;
+    height: 80px;
+}
+h1 {
+    margin: 0 0;
+}
+.mine {
+    padding-left: 30px;
+    margin-top: -20px;
+}
+.finished_taskList li {
+    color: #b9b9b9;
+    background-color: #efefef;
+}
+.finished_taskList button {
+    background-color: #efefef;
+}
