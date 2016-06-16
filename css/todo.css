@@ -4,9 +4,10 @@ body {
 .app-name {
     padding-left: 40px;
     padding-top: 15px;
+    color: rgb(236, 236, 236);
 }
 .top {
-    background-color: #99B2B7;
+    background-color: #030414;
     height: 80px;
 }
 h1 {
